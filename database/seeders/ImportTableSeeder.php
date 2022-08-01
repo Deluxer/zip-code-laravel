@@ -9,7 +9,7 @@ class ImportTableSeeder extends Seeder
 {
     public function run(): void
     {
-        $sql = storage_path('app/public/zipcode.sql');
+        $sql = database_path('backup/zipcode.sql');
           
         $db = [
             'username' => env('DB_USERNAME'),

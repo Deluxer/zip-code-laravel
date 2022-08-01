@@ -36,7 +36,11 @@ composer install
 Use database access credentials
 
 ```
-cp .env.example .env
+cp .env.example .env    
+```
+Generate key
+```
+php artisan key:generate
 ```
 
 ```
