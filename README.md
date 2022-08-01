@@ -30,7 +30,7 @@ cd zip-code-laravel
 
 Install composer dependencies
 ```
-compose install
+composer install
 ```
 
 Use database access credentials
